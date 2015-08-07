@@ -27,6 +27,6 @@
         cd ~/myproject
         virtualenv myprojectenv
         source myprojectenv/bin/activate
-        pip install django psycopg2
+        pip install django psycopg2 nginx
         
         
