@@ -16,3 +16,17 @@
 
         xclip -sel clip < ~/.ssh/id_rsa.pub
 
+2. Install python environment (for Fedora 22, python 3 default)
+
+        sudo python3 -m pip install --upgrade pip
+        sudo python3 -m pip install virtualenv
+
+3. Create project
+
+        mkdir ~/myproject
+        cd ~/myproject
+        virtualenv myprojectenv
+        source myprojectenv/bin/activate
+        pip install django psycopg2
+        
+        
